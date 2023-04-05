@@ -111,7 +111,7 @@ return (
   {mode === ERROR_DELETE && (
   <Error 
     message = "Could not delete appointment"
-    onClose = {back}
+    onClose = {()=> transition(SHOW)}
   />)}      
 
 </article>
